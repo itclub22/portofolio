@@ -10,26 +10,21 @@ export default function AboutWe() {
     const codeString = `
     package itclub
 
-    type SayHello struct {
-        Name        string
-        Hobbies     []string
-        Description string
-    }
+    import (
+        "fmt"
+        "io"
+        "os"
+    )
 
     func main() {
-        haii := SayHello{
-            Name: "IT Club",
-            Hobbies: []string{
-                "create some web design",
-                "pixel art enthusiast",
-                "and sometimes like watching anime :u",
-            },
-            Description: "Haii, we are it club enjoyy to join ",
-        }
+        filename := os.Args[1]
+        f, _ := os.Open(filename)
+        defer f.Close()
 
-        println(haii)
+        buf := make([]byte, 8)
+        io.WriteString(os.Stdout, string(buf))
+        fmt.Println()
     }
-
     `;
     return (
         <SyntaxHighlighter language="go" style={nightOwl} customStyle={{

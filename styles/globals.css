@@ -6,4 +6,5 @@
 
 body {
   background-image: url('../public/assets/bg.webp');
+  background-repeat: repeat;
 }

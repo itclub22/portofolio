@@ -11,7 +11,7 @@ export default function Home() {
       <div className='pt-16'>
         <Navbar />
       </div>
-      <div className='pt-10'>
+      <div className='pt-10 pb-10'>
         <HomeSection />
       </div>
     </main>
