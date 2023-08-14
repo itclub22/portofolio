@@ -15,11 +15,8 @@ export default function ErrorPages() {
                         </a>
                         
                     </div>
-                    <div className="w-full  self-center px-6 pb-5" align="center">
+                    <div className="w-1/2 lg:w-2/3 mx-auto  self-center lg:px-10 px-6 pb-5 pt-10">
                         <Image src={"/assets/error.webp"} width={400} height={400} alt="Error" className="rounded-lg "/>
-                    </div>
-                    <div className="w-full text-center px-6">
-                        <Link href={"/"} className="font-firaCode text-sm lg:text-2xl italic text-gray-400 lg:mb-10 mb-5">Back To Home</Link>
                     </div>
                 </div>
 

@@ -16,7 +16,7 @@ export default function HomeSection() {
                         </a>
                         
                     </div>
-                    <div className="w-full  self-center px-6" align="center">
+                    <div className="w-2/3 px-6 mx-auto">
                         <Image src={"/assets/bumi.webp"} width={400} height={400} alt="Maskot ITC" className=""/>
                     </div>
                     <div className="w-full text-center px-6">
