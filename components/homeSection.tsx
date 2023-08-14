@@ -11,7 +11,7 @@ export default function HomeSection() {
                 <div className="flex flex-wrap pb-10">
                     <div className="px-6">
                         <a className="text-blue-300 lg:text-xl text-md font-firaCode flex flex-wrap space-x-3 ">
-                            <h1 className="pt-1 text-teal-500"><HiArrowNarrowRight /></h1>
+                            <h1 className="pt-1 text-teal-500 invisible lg:visible"><HiArrowNarrowRight /></h1>
                             <h1 className="font-firaCode font-semibold lg:text-xl text-md"><span className="text-blue-300 inline">home </span><span className="inline text-blue-800">git:(</span><span className="inline text-red-600">master</span><span className="text-blue-800">)</span> $ <span className="inline-block text-white">./welcome.sh</span></h1>
                         </a>
                         
@@ -27,7 +27,7 @@ export default function HomeSection() {
 
                 <div className="px-6">
                     <a className="text-blue-300 lg:text-xl text-md font-firaCode flex flex-wrap space-x-3 ">
-                        <h1 className="pt-1 text-teal-500"><HiArrowNarrowRight /></h1>
+                        <h1 className="pt-1 text-teal-500 invisible lg:visible"><HiArrowNarrowRight /></h1>
                         <h1 className="font-firaCode font-semibold lg:text-xl text-md"><span className="text-blue-300 inline">home </span><span className="inline text-blue-800">git:(</span><span className="inline text-red-600">master</span><span className="text-blue-800">)</span> $ <span className="inline-block text-white">./about-we</span></h1>
                     </a>    
                 </div>
