@@ -6,7 +6,7 @@ import TypedAnim from "@/lib/forTyped"
 
 export default function HomeSection() {
     return (
-        <div className="lg:px-20 2xl:container px-6">
+        <div className="lg:px-20 px-6">
             <div className="bg-bgColor rounded-2xl backdrop-filter backdrop-blur-lg bg-opacity-40 pt-8 pb-8 shadow-lg shadow-black/50">
                 <div className="flex flex-wrap pb-10">
                     <div className="px-6">
