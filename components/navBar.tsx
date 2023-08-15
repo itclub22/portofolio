@@ -13,9 +13,9 @@ export default function Navbar() {
                             <span className="ml-2">IT Club</span>
                         </Link>
                     </div>
-                    <div className="lg:px-20 px-4 lg:w-1/4 w-1/2 space-x-2 lg:space-x-8 self-center">
+                    <div className="lg:px-20 px-3 lg:w-1/4 w-1/2 space-x-2 lg:space-x-8 self-center">
                         <Link href={"/profile"} className="text-white font-bold font-firaCode lg:text-2xl text-sm">
-                            Manager
+                            Organizer
                         </Link>
                         <Link href={"/player"} className="text-white font-bold font-firaCode lg:text-2xl text-sm">
                             Player
